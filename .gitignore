@@ -1,8 +1,4 @@
-app/clientes/__pycache__/controller.cpython-310.pyc
-app/clientes/__pycache__/controller.cpython-310.pyc
-app/clientes/__pycache__/controller.cpython-310.pyc
-app/clientes/__pycache__/controller.cpython-310.pyc
-core/__pycache__/security.cpython-310.pyc
-core/__pycache__/settings.cpython-310.pyc
-app/clientes/__pycache__/controller.cpython-310.pyc
-core/__pycache__/settings.cpython-310.pyc
+env/
+*.pyc
+__pycache__
+src/core/__pycache__/*.pyc

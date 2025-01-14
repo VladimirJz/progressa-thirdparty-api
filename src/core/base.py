@@ -1,4 +1,5 @@
 
+from core.security import SAFISessionToken
 from safi.core import Connector
 
 
