@@ -13,6 +13,8 @@ RUN pip install git+https://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@github.com/
 
 COPY ./src /srv
 
+COPY .env  /srv
+
 EXPOSE 3006
 
 CMD ["fastapi", "run", "main.py", "--port", "3006"]
