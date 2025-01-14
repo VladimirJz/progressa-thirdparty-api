@@ -11,12 +11,11 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 
 RUN pip install --no-cache-dir --upgrade -r requirements.txt || cat /tmp/pip-error.log
 
-RUN pip install git+https://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@github.com/VladimirJz/safi-core-library.git@release-candidate#egg=safi
+RUN pip install git+https://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@github.com/VladimirJz/safi-core-library.git@release-candidate#egg=safi
 
 COPY ./src /srv
 
 COPY .env  /srv
-
 
 EXPOSE 3007
 
